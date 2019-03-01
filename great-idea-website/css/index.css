@@ -64,3 +64,21 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 40px;
+}
+
+.navbar a, .logo{
+	margin:0 20px;
+}
+
+.box{
+	width: 800px;
+}
+
+section {
+	display: inline-block;
+	width: 250px;
+	margin-left: 30px;
+}
