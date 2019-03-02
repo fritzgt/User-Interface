@@ -65,20 +65,118 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
 body {
-	margin: 40px;
+	margin: 0 20px;
 }
 
+/*Nave bar and logo*/
 .navbar a, .logo{
 	margin:0 20px;
+	text-decoration: none;
+	color: grey;
 }
+
+nav {
+	position: fixed;
+	width: 100%;
+	background-color: #4FB3F9;
+	padding: 10px;
+}
+
+
+/*Jumbotrom*/
+
+.jumbotrom {
+	padding: 50px;
+	text-align: center;
+}
+
+
+h1{
+	font-size: 60px;
+	font-family: 'Indie Flower', cursive;
+}
+
+#heading{
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+#mainimg {
+	display: inline-block;
+	padding: 50px
+}
+
+#mainimg img {
+	height: 350px;
+
+}
+
+
+.margin{
+ border-bottom: 1px solid black;
+}
+
+button {
+	font-size: 12px;
+	padding: 5px 20px;
+}
+
+/*Main Content*/
 
 .box{
-	width: 800px;
+	width: 900px;
+	margin: 0 auto;
 }
 
-section {
+
+.topcontent {
+	margin: 30px 10px;
+	display: inline-block;
+	width: 400px;
+}
+
+.leftpadding {
+	margin-left: 65px;
+}
+
+
+.lowercontent {
 	display: inline-block;
 	width: 250px;
-	margin-left: 30px;
+	margin: 30px 10px;
+
+}
+
+.lowerlh {
+	margin-left: 50px;
+}
+
+
+
+/*Changin font*/
+p {
+	font-family: 'Muli', sans-serif;
+}
+
+
+h2 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+/*Contact section*/
+
+.contact{
+	padding: 30px 0;
+}
+
+/*Footer*/
+
+footer p{
+	text-align: center;
+	font-size: 12px;
 }
