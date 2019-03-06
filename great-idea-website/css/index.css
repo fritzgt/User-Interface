@@ -72,16 +72,16 @@ body {
 
 /*Nave bar and logo*/
 .navbar a, .logo{
-	margin:0 20px;
 	text-decoration: none;
 	color: white;
 }
 
 nav {
-	position: fixed;
-	width: 100%;
 	background-color: skyblue;
-	padding: 10px;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .navbar a:hover{
@@ -92,8 +92,10 @@ nav {
 /*Jumbotrom*/
 
 .jumbotrom {
-	padding: 50px;
 	text-align: center;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 
@@ -102,27 +104,12 @@ h1{
 	font-family: 'Indie Flower', cursive;
 }
 
-#heading{
-	display: inline-block;
-	text-align: center;
-}
-
-
 
 #mainimg {
-	display: inline-block;
-	padding: 50px
+	padding: 50px;
+	
 }
 
-#mainimg img {
-	height: 350px;
-
-}
-
-
-.margin{
- border-bottom: 1px solid black;
-}
 
 button {
 	font-size: 12px;
@@ -136,6 +123,11 @@ button:hover {
 	border: 4px solid skyblue;
 }
 
+.margin{
+ border-bottom: 1px solid black;
+}
+
+
 /*Main Content*/
 
 .box{
@@ -143,27 +135,14 @@ button:hover {
 	margin: 0 auto;
 }
 
-
-.topcontent {
+.container{
 	margin: 30px 10px;
-	display: inline-block;
-	width: 400px;
+	display: flex;
+	
 }
 
 .leftpadding {
 	margin-left: 65px;
-}
-
-
-.lowercontent {
-	display: inline-block;
-	width: 250px;
-	margin: 30px 10px;
-
-}
-
-.lowerlh {
-	margin-left: 50px;
 }
 
 
@@ -181,6 +160,8 @@ h2 {
 .services{
 	padding-top: 200px;
 }
+
+
 
 /*Contact section*/
 
